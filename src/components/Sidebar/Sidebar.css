@@ -1,0 +1,15 @@
+.top {
+  border-radius: 10px;
+  background-color: lightgrey;
+  margin-left: 70px;
+  margin-top: 20px;
+  position: sticky;
+}
+
+.bottom {
+  border-radius: 10px;
+  background-color: lightgrey;
+  margin-top: 20px;
+  margin-left: 70px;
+  position: sticky;
+}

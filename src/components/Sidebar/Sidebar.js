@@ -9,7 +9,7 @@ const Sidebar = () => {
   const user = useSelector((state) => state.user);
   return (
     <div className="sidebar">
-      <div className="top">
+      <div className="sidebar__top">
         <SidebarTop titledark={user.displayName} src={user.photoURL} />
         <hr />
         <SidebarTop titlelight="connections" />
@@ -22,7 +22,7 @@ const Sidebar = () => {
         <hr />
         <SidebarTop Icon={Bookmark} titlelight="My Items" />
       </div>
-      <div className="bottom">
+      <div className="sidebar__bottom">
         <SidebarBottom titlelight="Recent" />
         <SidebarBottom value="#" titlelight="indiastudents" />
         <SidebarBottom value="#" titlelight="india" />

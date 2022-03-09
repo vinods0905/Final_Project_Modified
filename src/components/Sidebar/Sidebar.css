@@ -1,15 +1,15 @@
-.top {
+.sidebar__top {
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: white;
   margin-left: 70px;
   margin-top: 20px;
   position: sticky;
 }
 
-.bottom {
+.sidebar__bottom {
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: white;
   margin-top: 20px;
   margin-left: 70px;
-  position: sticky;
+  position: fixed;
 }
